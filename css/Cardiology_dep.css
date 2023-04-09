@@ -1,0 +1,117 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    background: rgb(236, 232, 232);
+    font-family: sans-serif;
+  
+  }
+  header {
+    /* background-color: black; */
+    background-image: url(../image/Heart.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 95%;
+    margin: 20px;
+  }
+  header p{
+  font-size: 20px;
+  text-align: left;
+  padding:50px ;
+  color: #151515;
+  width: 40%;
+  }
+  header h2 {
+  font-size: 50px;
+    padding: 50px;
+    padding-bottom: 0;
+    text-align: left;
+  }
+  .paragraph {
+    padding: 20px 10%;
+    text-align: justify;
+    font-size: 15px;
+    color: #4d4d4d;
+  }
+  a{
+  text-decoration: none;
+  color: rgb(7, 117, 20);
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  h2 {
+    text-align: center;
+    color: rgb(7, 117, 20);
+  }
+  .heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+  }
+  
+  .container {
+    width: 90%;
+    overflow: hidden;
+    margin: 50px auto;
+  }
+  
+  .card {
+    width: 20%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    height: 400px;
+  }
+  .card-headerg{
+  background-image: url(../image/Heart2.jpg);
+  text-align: center;
+    padding: 40px 10px;
+    background-size: cover;
+    height: 65%;
+  }
+  .card-header{
+    text-align: center;
+    padding: 40px 10px;
+    /* background: linear-gradient(to right, #33cd38, #33cd38); */
+    background-image: url(../image/p1.jpg);
+    background-size: cover;
+    height: 65%;
+  
+  }
+  
+  .card-body {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .card-body .btn {
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #54db58, #54db58);
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 5px;
+  }
+  
+  .card:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 40px rgb(0, 0, 0, 0.25);
+  }
+  @media screen and(max-width:1000px) {
+    .card {
+      width: 40%;
+    }
+  }
